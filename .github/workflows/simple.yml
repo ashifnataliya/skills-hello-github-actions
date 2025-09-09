@@ -1,0 +1,10 @@
+name: print hello world
+
+on: workflow_dispatch
+
+jobs:
+  start_print:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
+     
